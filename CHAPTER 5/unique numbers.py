@@ -1,0 +1,11 @@
+#Program to input 8 numbers from the user and display all the unique numbers(once).
+n1 = int(input('Enter the first number: '))
+n2 = int(input('Enter the second number: '))
+n3 = int(input('Enter the third number: '))
+n4 = int(input('Enter the fourth number: '))
+n5 = int(input('Enter the fifth number: '))
+n6 = int(input('Enter the sixth number: '))
+n7 = int(input('Enter the seventh number: '))
+n8 = int(input('Enter the eighth number: '))
+set = set([n1, n2, n3, n4, n5, n6, n7, n8])
+print(set, 'are the unique numbers')
