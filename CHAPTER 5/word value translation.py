@@ -6,5 +6,4 @@ dict = {
 }
 
 user = input('Enter the word you want to translate: ')
-if user in dict:
-    print(dict[user], 'is the translation')
+print(dict[user], 'is the translation')
